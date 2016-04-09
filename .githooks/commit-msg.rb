@@ -11,7 +11,7 @@ end
 
 
 open(ARGV[0], 'w') do |file|
-    file.print "[#{$1}] "
+    file.print "aaa[#{$1}] "
     file.puts commit_msgs
 end
 
