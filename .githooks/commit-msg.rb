@@ -18,4 +18,4 @@ open(ARGV[0], 'w') do |file|
 end
 
 
-exit(1)
+exit -1
