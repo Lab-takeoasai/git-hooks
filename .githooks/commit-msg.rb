@@ -9,9 +9,11 @@ File.open(message_file, 'r').each_with_index do |line, line_number|
     # errors.push e if e
 end
 
+puts "aaa888"
+puts ARGV
 
 open(ARGV[0], 'w') do |file|
-    file.print "aaa[#{$1}] "
+    file.print "[#{$1}] "
     file.puts commit_msgs
 end
 
