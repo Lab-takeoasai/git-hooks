@@ -17,4 +17,5 @@ open(ARGV[0], 'w') do |file|
     file.puts commit_msgs
 end
 
+
 exit(1)
